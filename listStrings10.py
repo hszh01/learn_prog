@@ -12,8 +12,8 @@ while 1:
                 y.append(Response)
 while 2:
         Response2 = raw_input("Insert elements here to add to your previous list in an alternating fashion. Type 'Done' when Done: ")
-        if Response == "Done":
-                z = [None]*(len(y)+len(x))
+        if Response2 == "Done":
+                z = ["qwerty"]*(len(y)+len(x))
                 z[0::2] = y
                 z[1::2] = x
                 print "This is your new list: " + str(z)
